@@ -108,7 +108,7 @@ h1 {
 
 @media only screen and (max-width:600px) {
     html {
-        font-size: 62.5%;
+        font-size: 65%;
     }
     .wave {
         width: 250%;
