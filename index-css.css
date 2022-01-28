@@ -26,7 +26,6 @@ html {
     justify-self: center;
     margin-top: 7rem;
     padding: 2rem;
-
 }
 
 .title {
@@ -113,5 +112,15 @@ h1 {
     }
     .wave {
         width: 250%;
+    }
+
+    .title{
+        align-self: flex-start;
+    }
+    .content-wrapper{
+        gap:1.5rem;
+    }
+    .button-wrapper{
+        gap:1.5rem;
     }
 }
