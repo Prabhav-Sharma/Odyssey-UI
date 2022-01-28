@@ -95,6 +95,17 @@ h1 {
     width: 100%;
 }
 
+
+
+@media only screen and (max-width:1000px) {
+    html {
+        font-size: 75%;
+    }
+    .wave{
+        width: 175%;
+    }
+}
+
 @media only screen and (max-width:600px) {
     html {
         font-size: 62.5%;
@@ -113,13 +124,3 @@ h1 {
         gap:1.5rem;
     }
 }
-
-@media only screen and (max-width:1000px) {
-    html {
-        font-size: 75%;
-    }
-    .wave{
-        width: 175%;
-    }
-}
-
