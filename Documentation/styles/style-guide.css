@@ -1,0 +1,91 @@
+:root{
+ /*----------Colors----------*/
+    --primary-color:#01A7C2;
+    --secondary-color:#F46197;
+    --accent-color:#21295C;
+    --background-color: #CCDAD1;
+    --text-color-black:#1A181B;
+    --text-color-white:#FFFDF7;
+    
+/*----------gutters-----------*/
+    --gutter-large:4.5rem;
+    --gutter-medium:3rem;
+    --gutter-small:1rem;
+    --gutter-xsmall:0.5rem;
+
+}
+
+/*----------Headings----------*/
+
+html{
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 700;
+    margin: inherit;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    margin: inherit;
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+    margin: inherit;
+}
+
+h4{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin: inherit;
+}
+
+button{
+    cursor:pointer;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--accent-color);
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+a:hover{
+    opacity: 80%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+ text-decoration: none;
+ font-size: 1.2rem;
+ opacity: 80%;
+ width: 50%;
+ padding: var(--gutter-xsmall);
+ border-radius:1rem;
+ text-align: center;
+}
+
+li:hover{
+    background-color: var(--background-color);
+    cursor: pointer;
+}
