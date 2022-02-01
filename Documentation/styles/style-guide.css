@@ -23,6 +23,11 @@ html{
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    width: 100%;
+}
+
 h1{
     font-size: 3rem;
     line-height: 4rem;
@@ -48,6 +53,13 @@ h4{
     font-size: 1.25rem;
     line-height: 1.5rem;
     font-weight: 600;
+    margin: inherit;
+}
+
+h5{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
     margin: inherit;
 }
 
