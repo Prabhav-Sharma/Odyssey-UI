@@ -7,11 +7,15 @@
 }
 .wrapper{
     gap:var(--gutter-medium);
+    flex-wrap: wrap;
+    width: fit-content;
 }
 
 .avatar-wrapper{
     align-items: center;
-    gap:var(--gutter-small)
+    flex-wrap: wrap;
+    gap:var(--gutter-small);
+    width: fit-content;
 }
 
 .avatar-l{
