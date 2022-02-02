@@ -3,21 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
 
 .wrapper {
-    width: fit-content;
     flex-wrap: wrap;
     gap: var(--gutter-small);
+    width: fit-content;
 }
 
 .btns {
-    gap: var(--gutter-small);
     flex-wrap: wrap;
+    gap: var(--gutter-small);
 }
 
 .btn {
     cursor: pointer;
-    width: fit-content;
-    height: fit-content;
     font-family: 'Open Sans', sans-serif;
+    height: fit-content;
+    width: fit-content;
 }
 
 .btn:hover, .fab-btn:hover {
@@ -26,63 +26,62 @@
 
 .pri-btn {
     background-color: var(--primary-color);
-    color: var(--text-color-white);
     border: 1px solid var(--primary-color);
+    color: var(--text-color-white);
 }
 
 .pri-acc-btn {
     background-color: var(--text-color-white);
-    color: var(--primary-color);
     border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .sec-btn {
     background-color: var(--secondary-color);
-    color: var(--text-color-white);
     border: 1px solid var(--secondary-color);
+    color: var(--text-color-white);
 }
 
 .sec-acc-btn {
     background-color: var(--text-color-white);
-    color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 .link-btn {
     background-color: var(--text-color-white);
-    color: var(--accent-color);
     border: none;
     box-shadow: 1px 1px 1px black;
+    color: var(--accent-color);
 }
 
 .fab-btn {
+    align-items: center;
     border-radius: 999px;
-    width: 2.5rem;
-    height: 2.5rem;
     background-color: var(--primary-color);
     border: 1px solid var(--text-color-white);
+    height: 2.5rem;
     justify-content: center;
-    align-items: center;
     padding: 7px;
+    width: 2.5rem;
 }
 
-
 .btn-l {
+    border-radius: 10px;
     font-size: 1rem;
     padding: 6px 8px;
-    border-radius: 10px;
 }
 
 .btn-m {
+    border-radius: 8px;
     font-size: 14px;
     padding: 4px 6px;
-    border-radius: 8px;
 }
 
 .btn-s {
+    border-radius: 6px;
     font-size: 12px;
     padding: 3px 5px;
-    border-radius: 6px;
 }
 
 .fab-icon {
