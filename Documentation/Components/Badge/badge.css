@@ -1,0 +1,61 @@
+@import url("/Documentation/Components/Avatar/avatar.css");
+
+.av-badge {
+    position: relative;
+}
+
+.wrapper {
+    gap: var(--gutter-small);
+}
+
+.badge-wrapper {
+    gap: var(--gutter-small);
+    flex-wrap: wrap;
+}
+
+.badge-text {
+    border-radius: 999px;
+    background-color: chartreuse;
+    color: var(--text-color-black);
+    margin: 0px;
+    position: absolute;    
+}
+
+.pos-t {
+    top: 0;
+}
+
+.pos-b {
+    bottom: 0;
+}
+
+.pos-r {
+    right: 0;
+}
+
+.pos-l {
+    left: 0;
+}
+
+
+.badge-text-l {
+    font-size: 1rem;
+    padding: 3.5px 7px;
+}
+
+.badge-text-m {
+    font-size: 15px;
+    padding: 2px 4px;
+}
+
+.badge-text-s {
+    height: 12px;
+    width: 12px;
+}
+
+.icon-badge {
+    height: 2.5rem;
+    position: relative;
+    padding: 7.5px;
+    width: 2.5rem;
+}

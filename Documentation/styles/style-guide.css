@@ -5,11 +5,11 @@
     --accent-color:#21295C;
     --background-color: #CCDAD1;
     --text-color-black:#1A181B;
-    --text-color-white:#FFFDF7;
+    --text-color-white:#FFFAFF;
     
 /*----------gutters-----------*/
-    --gutter-large:4.5rem;
-    --gutter-medium:3rem;
+    --gutter-large:3rem;
+    --gutter-medium:2rem;
     --gutter-small:1rem;
     --gutter-xsmall:0.5rem;
 
