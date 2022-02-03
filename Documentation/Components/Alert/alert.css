@@ -1,0 +1,83 @@
+@import url("/Documentation/styles/style-guide.css");
+@import url("/Documentation/styles/utils.css");
+
+
+
+/****************For visualisation only*************/
+.wrapper {
+    gap: var(--gutter-medium);
+}
+
+.alert-wrapper {
+    gap: var(--gutter-small);
+}
+
+/****************For visualisation only*************/
+
+:root {
+    --success-color: #82D993;
+    --warning-color: #E7F249;
+    --error-color: #E64940;
+}
+
+.alert,
+.alert-icon {
+    color: var(--text-color-black);
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    width: fit-content;
+}
+
+.alert-icon {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 8px 12px;
+}
+
+.icon-alert {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.primary-alert {
+    background-color: var(--primary-color);
+}
+
+.success-alert {
+    background-color: var(--success-color);
+}
+
+.warning-alert {
+    background-color: var(--warning-color);
+}
+
+.error-alert {
+    background-color: var(--error-color);
+}
+
+.alert-text {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 0;
+}
+
+.highlight-text,
+.link-text {
+    font-weight: 600;
+}
+
+.link-text {
+    color: var(--text-color-black);
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.close-btn {
+    border: none;
+    background-color: transparent;
+    margin-left: 1rem;
+}
