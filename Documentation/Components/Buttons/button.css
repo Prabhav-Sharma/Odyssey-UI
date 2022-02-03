@@ -13,14 +13,14 @@
     gap: var(--gutter-small);
 }
 
-.btn {
+button {
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     height: fit-content;
     width: fit-content;
 }
 
-.btn:hover,
+button:hover,
 .fab-btn:hover {
     opacity: 85%;
 }
@@ -47,6 +47,12 @@
     background-color: var(--text-color-white);
     border: 1px solid var(--secondary-color);
     color: var(--secondary-color);
+}
+
+.acc-btn{
+    background-color: var(--accent-color);
+    border: 1px solid var(--text-color-white);
+    color: var(--text-color-white);
 }
 
 .link-btn {
