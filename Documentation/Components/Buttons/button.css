@@ -25,13 +25,13 @@ button:hover,
     opacity: 85%;
 }
 
-.pri-btn {
+.prim-btn {
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
     color: var(--text-color-white);
 }
 
-.pri-acc-btn {
+.prim-acc-btn {
     background-color: var(--text-color-white);
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
