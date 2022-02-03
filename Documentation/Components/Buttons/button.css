@@ -1,0 +1,105 @@
+@import url("/Documentation/styles/style-guide.css");
+@import url("/Documentation/styles/utils.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+.wrapper {
+    flex-wrap: wrap;
+    gap: var(--gutter-small);
+    width: fit-content;
+}
+
+.btns {
+    flex-wrap: wrap;
+    gap: var(--gutter-small);
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    height: fit-content;
+    width: fit-content;
+}
+
+button:hover,
+.fab-btn:hover {
+    opacity: 85%;
+}
+
+.prim-btn {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--text-color-white);
+}
+
+.prim-acc-btn {
+    background-color: var(--text-color-white);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.sec-btn {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--text-color-white);
+}
+
+.sec-acc-btn {
+    background-color: var(--text-color-white);
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.acc-btn{
+    background-color: var(--accent-color);
+    border: 1px solid var(--text-color-white);
+    color: var(--text-color-white);
+}
+
+.link-btn {
+    background-color: var(--text-color-white);
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    color: var(--accent-color);
+}
+
+.fab-btn {
+    align-items: center;
+    border-radius: 999px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--text-color-white);
+    height: 2.5rem;
+    justify-content: center;
+    padding: 7px;
+    width: 2.5rem;
+}
+
+.btn-l {
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 6px 8px;
+}
+
+.btn-m {
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 4px 6px;
+}
+
+.btn-s {
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.fab-icon {
+    filter: invert(100);
+}
+
+.btn-disabled {
+    opacity: 55%;
+}
+
+.btn-disabled:hover {
+    cursor: not-allowed;
+    opacity: 55%;
+}
