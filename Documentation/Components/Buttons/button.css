@@ -20,7 +20,8 @@
     width: fit-content;
 }
 
-.btn:hover, .fab-btn:hover {
+.btn:hover,
+.fab-btn:hover {
     opacity: 85%;
 }
 
@@ -86,4 +87,13 @@
 
 .fab-icon {
     filter: invert(100);
+}
+
+.btn-disabled {
+    opacity: 55%;
+}
+
+.btn-disabled:hover {
+    cursor: not-allowed;
+    opacity: 55%;
 }

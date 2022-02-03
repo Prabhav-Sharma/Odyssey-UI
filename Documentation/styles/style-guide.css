@@ -5,7 +5,8 @@
     --accent-color:#21295C;
     --background-color: #CCDAD1;
     --text-color-black:#1A181B;
-    --text-color-white:#FFFDF7;
+    --text-color-white:#FEFEFF;
+    --text-color-gray:#F1F2EB;
     
 /*----------gutters-----------*/
     --gutter-large:4.5rem;
@@ -22,6 +23,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--text-color-white);
 }
 
 img{
