@@ -1,0 +1,124 @@
+@import url("/Documentation/Components/Buttons/button.css");
+
+html{
+    background-color: var(--background-color);
+}
+
+
+.card{
+    background-color: var(--text-color-white);
+    padding:10px;
+    outline: var(--primary-color);
+    border-radius: 15px;
+    gap:15px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+
+.card-text-only{
+   min-width: fit-content;
+   width: 15rem;
+}
+
+.card-shadow{
+box-shadow: 3px 3px 10px var(--text-color-black);
+}
+
+.card-img{
+    border-radius: 15px;
+    object-fit: cover;
+    overflow:hidden;
+}
+
+.card-img:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+
+
+.card-text{
+    font-size:14px;
+}
+.card-badge{
+    display: flex;
+    position: absolute;
+    right: -5px;
+    flex-flow:row nowrap;
+    align-items: center;
+    gap:3px;
+    width: fit-content;
+    height: fit-content;
+    color:var(--text-color-white);
+    background-color: var(--accent-color);
+    border-radius: 7px;
+    padding:0 5px;
+    cursor: pointer;
+}
+
+.badge-icon{
+    width: 1rem;
+    height: 1rem;
+    filter: invert(100%);
+}
+
+.badge-text{
+    margin: 2px;
+}
+
+.dismiss-btn{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    right: 0;
+    top:0;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    border: none;
+}
+
+.dismiss-btn>img{
+    width: 100%;
+    filter: invert(100%);
+    object-fit: cover;
+}
+
+.text-overlay{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top:-2rem;
+    gap:1.6rem;
+    margin-bottom:3px;
+    padding:0 8px;
+    color:var(--text-color-white);
+}
+
+.card-footer{
+    justify-content: space-between;
+    padding:0 2px;
+    align-items: center;
+}
+
+.action-btns{
+    display: flex;
+    gap:6px;
+}
+
+.action-btn{
+    background-color: transparent;
+    border:none;
+    margin: 0;
+    padding:0;
+}
+
+.card-icon{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
