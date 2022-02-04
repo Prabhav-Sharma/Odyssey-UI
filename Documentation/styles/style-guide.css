@@ -2,22 +2,21 @@
  /*----------Colors----------*/
     --primary-color:#01A7C2;
     --secondary-color:#E6BE1E;
-    --accent-color:#BF0267;/*#21295C*/
+    --accent-color:#BF0267;
     --background-color: #CCDAD1;
     --text-color-black:#1A181B;
     --text-color-white:#FEFEFF;
     --text-color-gray:#F1F2EB;
+    --success-color: #82D993;
+    --warning-color: #E7F249;
+    --error-color: #E64940;
     
-/*----------spaces-----------*/
+/*----------Spacing-----------*/
     --space-xlarge:2.5rem;
     --space-large:2rem;
     --space-medium:1.5rem;
     --space-small:1rem;
     --space-xsmall:0.5rem;
-
-/*----------Spacing-----------*/
-
-
 }
 
 /*----------Headings----------*/

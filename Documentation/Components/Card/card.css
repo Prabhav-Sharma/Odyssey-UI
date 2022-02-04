@@ -1,95 +1,95 @@
 @import url("/Documentation/Components/Buttons/button.css");
 
-html{
+html {
     background-color: var(--background-color);
 }
 
-.wrapper{
-    gap:var(--space-medium);
+.wrapper {
+    gap: var(--space-medium);
 }
 
-.card{
+.card {
     background-color: var(--text-color-white);
     border-radius: var(--space-small);
     font-family: 'Open Sans', sans-serif;
-    gap:var(--space-small);
+    gap: var(--space-small);
     max-width: 20rem;
     max-height: 20rem;
     outline: var(--primary-color);
-    padding:10px;
+    padding: 10px;
     position: relative;
     user-select: none;
 }
 
 
-.card-text-only{
-   min-width: fit-content;
-   width: 15rem;
+.card-text-only {
+    min-width: fit-content;
+    width: 15rem;
 }
 
-.card-shadow{
-box-shadow: 3px 3px 10px var(--text-color-black);
+.card-shadow {
+    box-shadow: 3px 3px 10px var(--text-color-black);
 }
 
-.card-img{
-    border-radius:var(--space-xsmall);
+.card-img {
+    border-radius: var(--space-xsmall);
     max-width: 100%;
 }
 
-.card-img:hover{
+.card-img:hover {
     cursor: pointer;
     opacity: 90%;
 }
 
-.card-img-container{
-position: relative;
+.card-img-container {
+    position: relative;
 }
 
-.card-img-container::after{
+.card-img-container::after {
     background-color: hsl(0, 0%, 0%, 0.3);
     bottom: 4px;
-    border-radius:var(--space-xsmall);
-content:'';
-left:0;
-position: absolute;
-right:0;
-top:0;
-z-index: 1;
+    border-radius: var(--space-xsmall);
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
 }
 
-.card-text{
-    font-size:14px;
+.card-text {
+    font-size: 14px;
 }
 
-.card-badge{
+.card-badge {
     align-items: center;
     background-color: var(--accent-color);
     border-radius: var(--space-xsmall);
-    color:var(--text-color-white);
+    color: var(--text-color-white);
     cursor: pointer;
     display: flex;
-    flex-flow:row nowrap;
-    gap:3px;
+    flex-flow: row nowrap;
+    gap: 3px;
     height: fit-content;
     opacity: 90%;
     position: absolute;
-    padding:0 var(--space-xsmall);
+    padding: 0 var(--space-xsmall);
     right: -5px;
- width: fit-content;
+    width: fit-content;
 }
 
-.badge-icon{
+.badge-icon {
     filter: invert(100%);
     height: 1rem;
     width: 1rem;
 }
 
-.badge-text{
+.badge-text {
     margin: 2px;
 }
 
-.dismiss-btn{
-    align-items:center;
+.dismiss-btn {
+    align-items: center;
     background-color: var(--accent-color);
     border-radius: 50%;
     border: none;
@@ -98,48 +98,47 @@ z-index: 1;
     justify-content: center;
     position: absolute;
     right: 0;
-    top:0;
+    top: 0;
     width: 2rem;
 }
 
-.dismiss-btn>img{
+.dismiss-btn>img {
     filter: invert(100%);
     object-fit: cover;
     width: 100%;
 }
 
-.text-overlay{
+.text-overlay {
     background-color: hsla(0, 0, 0, 0.5);
-    color:var(--text-color-white);
+    color: var(--text-color-white);
     display: flex;
     flex-flow: column nowrap;
-    gap:var(--space-medium);
-    margin-top:-2rem;
-    margin-bottom:3px;
-    padding:0 8px;
+    gap: var(--space-medium);
+    margin-top: -2rem;
+    margin-bottom: 3px;
+    padding: 0 8px;
     z-index: 2;
 }
 
-.card-footer{
+.card-footer {
     align-items: center;
     justify-content: space-between;
-    padding:0 2px;
+    padding: 0 2px;
 }
 
-.action-btns{
+.action-btns {
     display: flex;
-    gap:6px;
+    gap: 6px;
 }
 
-.action-btn{
+.action-btn {
     background-color: transparent;
-    border:none;
+    border: none;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-.card-icon{
+.card-icon {
     width: 1.25rem;
     height: 1.25rem;
 }
-

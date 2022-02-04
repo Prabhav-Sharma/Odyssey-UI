@@ -8,11 +8,11 @@ body{
     align-items: center;
     border-bottom: 2px solid var(--primary-color);
     justify-content: space-between;
-    margin:0 var(--gutter-small);
+    margin:0 var(--space-small);
 }
 
 .header-section-left{
-    gap:var(--gutter-small);
+    gap:var(--space-small);
 }
 .header-section-left>a{
     align-self: center;
@@ -58,7 +58,7 @@ body{
 }
 
 .sidebar-list-item{
-    margin-bottom: var(--gutter-xsmall);
+    margin-bottom: var(--space-xsmall);
 }
 
 
