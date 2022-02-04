@@ -1,18 +1,22 @@
 :root{
  /*----------Colors----------*/
     --primary-color:#01A7C2;
-    --secondary-color:#F46197;
-    --accent-color:#21295C;
+    --secondary-color:#E6BE1E;
+    --accent-color:#BF0267;/*#21295C*/
     --background-color: #CCDAD1;
     --text-color-black:#1A181B;
     --text-color-white:#FEFEFF;
     --text-color-gray:#F1F2EB;
     
-/*----------gutters-----------*/
-    --gutter-large:4.5rem;
-    --gutter-medium:3rem;
-    --gutter-small:1rem;
-    --gutter-xsmall:0.5rem;
+/*----------spaces-----------*/
+    --space-xlarge:2.5rem;
+    --space-large:2rem;
+    --space-medium:1.5rem;
+    --space-small:1rem;
+    --space-xsmall:0.5rem;
+
+/*----------Spacing-----------*/
+
 
 }
 
@@ -94,7 +98,7 @@ li{
  font-size: 1.2rem;
  opacity: 80%;
  width: 50%;
- padding: var(--gutter-xsmall);
+ padding: var(--space-xsmall);
  border-radius:1rem;
  text-align: center;
 }
