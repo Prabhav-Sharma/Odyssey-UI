@@ -49,6 +49,12 @@ button:hover,
     color: var(--secondary-color);
 }
 
+.gray-btn{
+    background-color: var(--solid-gray);
+    border: 1px solid var(--text-color-white);
+    color: var(--text-color-white);
+}
+
 .acc-btn{
     background-color: var(--accent-color);
     border: 1px solid var(--text-color-white);
