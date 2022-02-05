@@ -5,11 +5,11 @@
 }
 
 .wrapper {
-    gap: var(--gutter-small);
+    gap: var(--space-small);
 }
 
 .badge-wrapper {
-    gap: var(--gutter-small);
+    gap: var(--space-small);
     flex-wrap: wrap;
 }
 
@@ -56,6 +56,6 @@
 .icon-badge {
     height: 2.5rem;
     position: relative;
-    padding: 7.5px;
+    padding: var(--space-xsmall);
     width: 2.5rem;
 }

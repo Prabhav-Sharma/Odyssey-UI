@@ -4,13 +4,13 @@
 
 .wrapper {
     flex-wrap: wrap;
-    gap: var(--gutter-small);
+    gap: var(--space-small);
     width: fit-content;
 }
 
 .btns {
     flex-wrap: wrap;
-    gap: var(--gutter-small);
+    gap: var(--space-small);
 }
 
 button {
@@ -69,18 +69,18 @@ button:hover,
     border: 1px solid var(--text-color-white);
     height: 2.5rem;
     justify-content: center;
-    padding: 7px;
+    padding: var(--space-xsmall);
     width: 2.5rem;
 }
 
 .btn-l {
-    border-radius: 10px;
+    border-radius: calc(var(--space-xsmall) + 3px);
     font-size: 1rem;
     padding: 6px 8px;
 }
 
 .btn-m {
-    border-radius: 8px;
+    border-radius: var(--space-xsmall);
     font-size: 14px;
     padding: 4px 6px;
 }
