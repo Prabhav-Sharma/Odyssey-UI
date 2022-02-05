@@ -1,134 +1,136 @@
 @import url("/Documentation/Components/Buttons/button.css");
 
-html{
+html {
     background-color: var(--background-color);
 }
 
-.wrapper{
-    gap:var(--space-medium);
+.wrapper {
+    gap: var(--space-medium);
 }
 
-.card-midtext{
+.card-midtext {
     width: 13rem;
     height: fit-content;
     background-color: var(--background-color);
-    padding:5px;
+    padding: 5px;
     position: relative;
 }
 
-.prod-img{
+.prod-img {
     width: 100%;
-    outline:1px solid black;
+    outline: 1px solid black;
 }
 
-.overlay-text{
+.overlay-text {
     position: absolute;
     z-index: 1;
-    top:30%;
+    top: 30%;
     padding: 2px 40%;
-    width:fit-content;
-    background-color: white;
+    width: fit-content;
+    background-color: var(--text-color-white);
 }
 
-.card{
+.card {
     width: 15rem;
     height: fit-content;
     background-color: var(--text-color-white);
-    padding:3px;
-    gap:var(--space-xsmall);
+    padding: 3px;
+    gap: var(--space-xsmall);
     position: relative;
 }
 
-.card-horizontal{
+.card-horizontal {
     width: 30rem;
     height: fit-content;
     background-color: var(--text-color-white);
-    padding:3px;
-    gap:var(--space-small);
+    padding: 3px;
+    gap: var(--space-small);
     position: relative;
 }
 
-.badge-container{
+.badge-container {
     width: 1.5rem;
     height: 1.75rem;
     position: absolute;
-    background-color: white;
+    background-color: var(--text-color-white);
     border-radius: var(--space-small);
-    padding:2.5px 5px;
+    padding: 2.5px 5px;
     display: flex;
     align-items: center;
     right: var(--space-small);
-    top:var(--space-small);
+    top: var(--space-small);
 }
 
-.badge-img{
-  width: 100%;
+.badge-img {
+    width: 100%;
 }
 
-.img-container{
+.img-container {
     max-width: 15rem;
 }
 
-.right-section{
+.right-section {
     justify-content: space-evenly;
 }
 
-.badge-container:hover{
+.badge-container:hover {
     cursor: pointer;
     background-color: red;
 }
 
-.text-container{
+.text-container {
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    gap:var(--space-xsmall);
+    gap: var(--space-xsmall);
 }
 
-.prod-title{
-font-size: 1.25rem;
-line-height: 1.5rem;
-margin:1px;
+.prod-title {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 1px;
 }
 
-.prod-costs{
-    gap:var(--space-xsmall);
+.prod-costs {
+    gap: var(--space-xsmall);
     margin-bottom: var(--space-small);
 }
 
-.prod-cost{
+.prod-cost {
     font-size: 1rem;
     line-height: 1.25rem;
     font-weight: 600;
-    margin:1px;
+    margin: 1px;
 }
 
-.prod-mrp, .prod-discount{
+.prod-mrp,
+.prod-discount {
     font-size: 1rem;
     line-height: 1.25rem;
     font-weight: 600;
-    margin:1px;
+    margin: 1px;
     text-decoration: line-through;
-    color:var(--solid-gray);
+    color: var(--solid-gray);
 }
 
-.btns, .btns-95{
+.btns,
+.btns-width-95 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:var(--space-xsmall);
+    gap: var(--space-xsmall);
 }
 
-.btns-full>button{
+.btns-full>button {
     width: 100%;
     border-radius: 0%;
 }
 
 
-.btns-95>button{
+.btns-width-95>button {
     width: 95%;
     border-radius: 0%;
 }
 
-.btns>button{
+.btns>button {
     width: 45%;
 }
