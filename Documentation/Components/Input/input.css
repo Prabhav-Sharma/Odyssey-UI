@@ -1,0 +1,65 @@
+@import url("/Documentation/styles/style-guide.css");
+@import url("/Documentation/styles/utils.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+.wrapper {
+    gap: var(--space-small);
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color-black);
+    border: 2px solid var(--solid-gray);
+    padding: var(--space-xsmall);
+    max-width: 100%;
+    width: 50%;
+    color:var(--text-color-black);
+}
+
+.input-l {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: var(--space-xsmall);
+}
+
+.input-m {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding: var(--space-xsmall);
+}
+
+.input-s {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.input-valid{
+    border: 2px solid var(--valid-green);
+}
+.input-invalid{
+    border: 2px solid var(--invalid-red);
+}
+
+.input-text-italic {
+    font-style: italic;
+}
+
+.input-round-border {
+    border-radius: var(--space-xsmall);
+}
+
+.input-focus:focus{
+    box-shadow: 1.5px 1.5px 5px var(--text-color-black);
+}
+
+.input-checkbox{
+    background-color: var(--primary-color);
+}
+
+.input-text-area{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: var(--space-xsmall);
+    max-width:100%;
+    width: 50%;
+}
