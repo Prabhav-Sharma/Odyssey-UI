@@ -1,0 +1,30 @@
+@import url("/Documentation/styles/style-guide.css");
+@import url("/Documentation/styles/utils.css");
+@import url("/Documentation/Components/Text/text-utils.css");
+
+.snackbar {
+    background-color: var(--text-color-black);
+    color: var(--text-color-gray);
+    gap: var(--space-xsmall);
+    padding: var(--space-small);
+    user-select: none;
+    width: fit-content;
+    border-radius: var(--space-xxsmall);
+}
+
+.snackbar-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--accent-color);
+    font: monospace;
+    font-size: 1rem;
+    transition: all linear 0.15s;
+}
+
+.snackbar-btn:hover {
+    color: var(--primary-color);
+}
+
+.dismiss-btn {
+    color: var(--text-color-white);
+}
