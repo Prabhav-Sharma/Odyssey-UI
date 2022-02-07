@@ -1,0 +1,43 @@
+@import url("/Documentation/styles/style-guide.css");
+@import url("/Documentation/styles/utils.css");
+
+html{
+    background-color: var(--background-color);
+}
+
+nav{
+    display: block;
+    background-color: var(--text-color-white);
+    padding: var(--space-small);
+}
+
+.nav-row{
+    justify-content: space-between;
+}
+
+.nav-column{
+    padding:var(--space-xsmall) var(--space-small);
+}
+
+.nav-img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.nav-logo{
+    align-items: center;
+}
+
+.nav-title{
+    color:var(--text-color-black);
+}
+
+.nav-links{
+    width: fit-content;
+    align-self: flex-end;
+}
+
+.links-top{
+    justify-self: flex-end;
+    align-self: flex-end;
+}
