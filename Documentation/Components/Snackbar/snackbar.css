@@ -19,6 +19,7 @@
     font: monospace;
     font-size: 1rem;
     transition: all linear 0.15s;
+    letter-spacing: 1px;
 }
 
 .snackbar-btn:hover {
