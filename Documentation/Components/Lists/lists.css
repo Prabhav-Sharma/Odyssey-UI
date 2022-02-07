@@ -20,6 +20,7 @@
     width: fit-content;
     padding: var(--space-xsmall);
     color: var(--text-color-black);
+    transition: all linear 0.2s;
 }
 
 .group-center {
