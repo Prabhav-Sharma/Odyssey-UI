@@ -104,9 +104,12 @@ li{
  padding: var(--space-xsmall);
  border-radius:1rem;
  text-align: center;
+ color:var(--text-color-black);
 }
 
 li:hover{
     background-color: var(--background-color);
     cursor: pointer;
+    color:var(--text-color-black);
+    
 }
