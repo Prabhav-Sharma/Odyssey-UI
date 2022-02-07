@@ -3,6 +3,7 @@
 @import url("/Documentation/Components/Text/text-utils.css");
 
 .snackbar {
+    position: absolute;
     background-color: var(--text-color-black);
     color: var(--text-color-gray);
     gap: var(--space-xsmall);
