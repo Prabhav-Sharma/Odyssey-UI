@@ -9,6 +9,7 @@ nav{
     display: block;
     background-color: var(--text-color-white);
     padding: var(--space-small);
+    user-select: none;
 }
 
 .nav-row{
@@ -16,7 +17,7 @@ nav{
 }
 
 .nav-column{
-    padding:var(--space-xsmall) var(--space-small);
+    padding:var(--space-xxsmall) var(--space-small);
 }
 
 .nav-img{
@@ -40,4 +41,26 @@ nav{
 .links-top{
     justify-self: flex-end;
     align-self: flex-end;
+}
+
+.nav-button{
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    box-shadow: 1.5px 1.5px 5px var(--text-color-black);
+    padding: 0;
+    border-radius: var(--space-xxsmall);
+    cursor: pointer;
+    transition: all linear 0.2s;
+    margin-right: var(--space-small);
+}
+
+.nav-button:hover{
+    box-shadow: 1px 1px 2px var(--text-color-black);
+}
+
+.hamburger-img{
+    width: 70%;
+    height: 70%;
 }
