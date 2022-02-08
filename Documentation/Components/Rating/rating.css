@@ -1,0 +1,27 @@
+@import url("/Documentation/styles/style-guide.css");
+@import url("/Documentation/styles/utils.css");
+
+
+.wrapper {
+    width: fit-content;
+    left: 0;
+}
+
+.rating {
+    flex-direction: row-reverse;
+    gap: 1px;
+    user-select: none;
+}
+
+.rating-star {
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.rating-star:hover,
+.rating-star:hover~.rating-star,
+.filled-siblings,
+.filled-siblings~*,
+.filled {
+    color: gold;
+}
