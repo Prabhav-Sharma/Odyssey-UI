@@ -23,5 +23,5 @@
 .filled-siblings,
 .filled-siblings~*,
 .filled {
-    color: gold;
+    color: var(--secondary-color);
 }
