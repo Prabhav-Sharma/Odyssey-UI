@@ -1,65 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
+    <title>Introduction | Odyssey UI</title>
+    <!-- <link rel="stylesheet" href="/path/to/styles/monokai.min.css"> -->
     <link href="docs.css" rel="stylesheet">
 </head>
+
 <body>
-    <header class="header flex-row">
-        <div class="header-section-left flex-row">
-        <a><img class="hamburger-btn icon" src="/Assets/hamburger.png"></a>
-        <a href="https://odysseyui.netlify.app">Home</a>
-        <a href="#">Docs</a>
+    <nav class="nav-row flex-row">
+        <div class="nav-logo flex-row">
+            <button class="nav-button"><img class="hamburger-img" src="/Assets/hamburger.png"></button>
+            <a class="nav-title-link flex-row" href="https://odysseyui.netlify.app">
+                <img alt="Logo Image" class="nav-img" src="/Assets/helmet.png">
+                <div class="nav-title">
+                    <h2>Odyssey UI</h2>
+                </div>
+            </a>
         </div>
-        <div class="header-section-right">
-            <a href="https://github.com/Prabhav-Sharma/odyssey-ui"><img class="icon" src="/Assets/github.png"></a>
-        </div>
-    </header>
-    <div class="main-wrapper flex-row">
-    <aside class="sidebar ::-webkit-scrollbar" id="sidebar">
-        <div class="sidebar-section">
-            <h4 class="sidebar-heading">Getting Started</h4>
-            <ul class="sidebar-section-list">
-                <li class="sidebar-list-item">Introduction</li>
-            </ul>
-        </div>
-        <div class="sidebar-section">
-            <h4 class="sidebar-heading">Layout</h4>
-            <ul class="sidebar-section-list">
-                <li class="sidebar-list-item">Containers</li>
-                <li class="sidebar-list-item">Grid System</li>
-            </ul>
-        </div>
-        <div class="sidebar-section">
-            <h4 class="sidebar-heading">Basic Components</h4>
-            <ul class="sidebar-section-list">
-                <li class="sidebar-list-item">Avatar</li>
-                <li class="sidebar-list-item">Alert</li>
-                <li class="sidebar-list-item">Badge</li>
-                <li class="sidebar-list-item">Button</li>
-                <li class="sidebar-list-item">Card</li>
-                <li class="sidebar-list-item">Image</li>
-                <li class="sidebar-list-item">Input</li>
-            </ul>
-        </div>
-        <div class="sidebar-section">
-            <h4 class="sidebar-heading">Utilities</h4>
-            <ul class="sidebar-section-list">
-                <li class="sidebar-list-item">Text</li>
-                <li class="sidebar-list-item">List</li>
-                <li class="sidebar-list-item">Modal</li>
-                <li class="sidebar-list-item">Rating</li>
-                <li class="sidebar-list-item">Simplified Grid</li>
-                <li class="sidebar-list-item">Navigation</li>
-                <li class="sidebar-list-item">Slider</li>
-            </ul>
-        </div>
-    </aside>
-    <main class="main">
+        <ul class="nav-links links-top flex-row">
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#">Docs</a></li>
+        </ul>
+    </nav>
+    <main class="main-container">
+        <section class="main-section grid">
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Getting Started</h4>
+                    <ul class="sidebar-section-list">
+                        <li class="sidebar-list-item item-active"><a href="">Introduction</a></li>
+                        <li class="sidebar-list-item"><a href="">Typography</a></li>
+                        <li class="sidebar-list-item"><a href="">Colors</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Components</h4>
+                    <ul class="sidebar-section-list">
+                        <li class="sidebar-list-item"><a href="">Avatar</a></li>
+                        <li class="sidebar-list-item"><a href="">Alert</a></li>
+                        <li class="sidebar-list-item"><a href="">Badge</a></li>
+                        <li class="sidebar-list-item"><a href="">Button</a></li>
+                        <li class="sidebar-list-item"><a href="">Card</a></li>
+                        <li class="sidebar-list-item"><a href="">Image</a></li>
+                        <li class="sidebar-list-item"><a href="">Input</a></li>
+                        <li class="sidebar-list-item"><a href="">List</a></li>
+                        <li class="sidebar-list-item"><a href="">Modal</a></li>
+                        <li class="sidebar-list-item"><a href="">Rating</a></li>
+                        <li class="sidebar-list-item"><a href="">Simplified Grid</a></li>
+                        <li class="sidebar-list-item"><a href="">Navigation</a></li>
+                        <li class="sidebar-list-item"><a href="">Slider</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <article>
+                <h2>Introduction</h2>
+                <div class="component-description">
+                    <p class="para-m">
+                    </p>
+                    <br>
+                    <p class="para-m">
+                        To use these classes, all that one has to do is to add the below
+                        import in his / her css file.
+                    </p>
+                    <br>
+                    <div class="code-example">
+                        <pre><code class="language-html"><link rel="stylesheet" href="https://odysseyui.netlify.app/CSS/odyssey.css" integrity=" crossorigin="anonymous"></code></pre>
+                     
+                </div>
+                <div class="navigation-footer-links">
+                    <div class="prev-page"></div>
+                    <div class="next-page">
+                        <a href="../typography/">Typography&nbsp;<i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
-</div>
+<!-- <script src="/path/to/highlight.min.js"></script>
+<script>hljs.highlightAll();</script> -->
 </body>
+
 </html>

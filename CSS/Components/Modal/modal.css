@@ -13,7 +13,7 @@
     justify-content: space-between;
 }
 
-.para-m {
+.modal-para{
     border-bottom: 1px solid var(--solid-gray);
     border-top: 1px solid var(--solid-gray);
     padding: var(--sp-1) 0;

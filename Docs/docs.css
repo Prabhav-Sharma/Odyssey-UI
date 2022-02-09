@@ -1,35 +1,47 @@
 @import url("/CSS/odyssey.css");
 
-body{
+body {
     margin: 0;
 }
-.header{
+
+nav {
+    border-bottom: 1px solid var(--solid-gray);
+    white-space: nowrap;
+    position: sticky;
+    top: 0
+}
+
+.nav-title {
+    color: var(--black);
+}
+
+.nav-title-link {
     align-items: center;
-    border-bottom: 2px solid var(--primary-color);
-    justify-content: space-between;
-    margin:0 var(--sp-1);
+    transition: all linear 0.2s;
 }
 
-.header-section-left{
-    gap:var(--sp-1);
-}
-.header-section-left>a{
-    align-self: center;
+.nav-title-link:hover {
+    opacity: 100%;
+    transform: translateY(-2px);
 }
 
-.sidebar{
+.main-section {
+    grid-template-areas: "sidebar main main main";
+    gap: var(--sp-1);
+}
+
+.sidebar {
+    grid-area: sidebar;
     border-right: 1px solid var(--background-color);
-    height:calc(100vh -1rem);
-    margin-top: 15px;
-    overscroll-behavior: contain;
-    overflow-x: hidden;
+    width: 18rem;
+    margin-top: 1.5rem;
+    scroll-padding-top: 5.6rem;
     overflow-y: auto;
-    width: 20rem;
-    z-index: 5;
+    height: calc(100vh - 9rem);
 }
 
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 18px;
 }
 
 ::-webkit-scrollbar-track {
@@ -47,21 +59,36 @@ body{
     background-color: var(--accent-color);
 }
 
-.sidebar-section{
-   margin:5px;
-   width: 20rem;
+.sidebar-section {
+    margin: 5px;
+    max-width: 100%;
 }
 
-.sidebar-heading{
+.sidebar-section-list {
+    padding: var(--sp-0-25);
+}
+
+.sidebar-heading {
     border-bottom: 1px solid var(--background-color);
 }
 
-.sidebar-list-item{
-    margin-bottom: var(--sp-0-5);
+.sidebar-list-item {
+    margin-bottom: var(--sp-0-25);
 }
 
+.sidebar-list-item>a {
+    color: black;
+}
 
+.item-active>a {
+    color: var(--white);
+}
 
+.item-active:hover {
+    background-color: var(--primary-color);
+}
 
-
-
+main {
+    grid-area: main;
+    padding: var(--sp-1);
+}
