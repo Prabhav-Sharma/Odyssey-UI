@@ -1,0 +1,61 @@
+@import url("/CSS/Components/Alert/alert.css");
+
+.av-badge {
+    position: relative;
+}
+
+.wrapper {
+    gap: var(--sp-1);
+}
+
+.badge-wrapper {
+    gap: var(--sp-1);
+    flex-wrap: wrap;
+}
+
+.badge-text {
+    border-radius: 60%;
+    background-color: chartreuse;
+    color: var(--black);
+    margin: 0px;
+    position: absolute;    
+}
+
+.pos-t {
+    top: 0;
+}
+
+.pos-b {
+    bottom: 0;
+}
+
+.pos-r {
+    right: 0;
+}
+
+.pos-l {
+    left: 0;
+}
+
+
+.badge-text-l {
+    font-size: 1rem;
+    padding: 3.5px 7px;
+}
+
+.badge-text-m {
+    font-size: 15px;
+    padding: 2px 4px;
+}
+
+.badge-text-s {
+    height: 12px;
+    width: 12px;
+}
+
+.icon-badge {
+    height: 2.5rem;
+    position: relative;
+    padding: var(--sp-0-5);
+    width: 2.5rem;
+}

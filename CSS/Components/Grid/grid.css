@@ -1,0 +1,23 @@
+@import url("/CSS/Components/Rating/rating.css");
+
+.two-item-grid{
+    grid-template-columns: 1fr 1fr;
+    gap:var(--sp-1);
+}
+
+.three-item-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:var(--sp-1);
+}
+
+.auto-grid{
+        grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+        gap:var(--sp-1);
+}
+
+.grid-item{
+    height: auto;
+    padding: var(--sp-2);
+    background-color: var(--primary-color);
+    color: var(--white);
+}

@@ -1,0 +1,61 @@
+@import url("/CSS/Components/Image/image.css");
+
+.wrapper {
+    gap: var(--sp-1);
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+    border: 2px solid var(--solid-gray);
+    padding: var(--sp-0-5);
+    max-width: 100%;
+    color:var(--black);
+}
+
+.input-l {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: var(--sp-0-5);
+}
+
+.input-m {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding: var(--sp-0-5);
+}
+
+.input-s {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.input-valid{
+    border: 2px solid var(--valid-green);
+}
+.input-invalid{
+    border: 2px solid var(--invalid-red);
+}
+
+.input-text-italic {
+    font-style: italic;
+}
+
+.input-round-border {
+    border-radius: var(--sp-0-5);
+}
+
+.input-focus:focus{
+    box-shadow: 1.5px 1.5px 5px var(--black);
+}
+
+.input-checkbox{
+    background-color: var(--primary-color);
+}
+
+.input-text-area{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: var(--sp-0-5);
+    max-width:100%;
+}

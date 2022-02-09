@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+:root{
+ /*----------Colors----------*/
+    --primary-color:#01A7C2;
+    --secondary-color:#E6BE1E;
+    --accent-color:#BF0267;
+    --background-color: #CCDAD1;
+    --black:#1A181B;
+    --white:#FEFEFF;
+    --gray:#F1F2EB;
+    --solid-gray:#979797;
+    --success-color: #82D993;
+    --warning-color: #E7F249;
+    --error-color: #E64940;
+    --valid-green:#90ee90;
+    --invalid-red:#ff726f;
+
+    
+/*----------Spacing-----------*/
+    --sp-2-5:2.5rem;
+    --sp-2:2rem;
+    --sp-1-5:1.5rem;
+    --sp-1:1rem;
+    --sp-0-5:0.5rem;
+    --sp-0-25:0.25rem;
+}
+
+
+html{
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--white);
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 600;
+    margin: inherit;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    margin: inherit;
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin: inherit;
+}
+
+h4{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin: inherit;
+}
+
+h5{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin: inherit;
+}
+
+button{
+    cursor:pointer;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--accent-color);
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+a:hover{
+    opacity: 80%;
+}
+

@@ -1,0 +1,101 @@
+@import url("/CSS/Components/Badge/badge.css");
+
+.wrapper {
+    flex-wrap: wrap;
+    gap: var(--sp-1);
+    width: fit-content;
+}
+
+.btns {
+    flex-wrap: wrap;
+    gap: var(--sp-1);
+}
+
+.btn {
+    font-size: 1.25rem;
+    padding: 6px 8px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    width: max-content;
+    white-space: nowrap;
+    transform: all linear 0.2s;
+}
+
+.btn:hover,
+.fab-btn:hover {
+    opacity: 85%;
+    transform: translatey(-3px);
+}
+
+
+.prim-btn {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--white);
+}
+
+.prim-acc-btn {
+    background-color: var(--white);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.sec-btn {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--white);
+}
+
+.sec-acc-btn {
+    background-color: var(--white);
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.gray-btn{
+    background-color: var(--solid-gray);
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+.acc-btn{
+    background-color: var(--accent-color);
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+.link-btn {
+    background-color: transparent;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    color: var(--accent-color);
+}
+
+.fab-btn {
+    align-items: center;
+    border-radius: 999px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--white);
+    height: 2.5rem;
+    justify-content: center;
+    padding: var(--sp-0-5);
+    width: 2.5rem;
+}
+
+.btn-round{
+    border-radius: calc(var(--sp-0-5) + 3px);
+}
+
+.fab-icon {
+    filter: invert(100);
+}
+
+.btn-disabled {
+    opacity: 55%;
+}
+
+.btn-disabled:hover {
+    cursor: not-allowed;
+    opacity: 55%;
+}

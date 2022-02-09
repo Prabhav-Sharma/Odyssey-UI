@@ -1,0 +1,136 @@
+@import url("/CSS/Components/Buttons/button.css");
+
+.wrapper {
+    gap: var(--sp-1-5);
+}
+
+.card-midtext {
+    width: 13rem;
+    height: fit-content;
+    background-color: var(--background-color);
+    padding: 5px;
+    position: relative;
+}
+
+.prod-img {
+    width: 100%;
+    outline: 1px solid black;
+}
+
+.overlay-text {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    padding: 2px 40%;
+    width: fit-content;
+    background-color: var(--white);
+}
+
+.card {
+    width: 15rem;
+    height: fit-content;
+    background-color: var(--white);
+    padding: 3px;
+    gap: var(--sp-0-5);
+    position: relative;
+}
+
+.card-horizontal {
+    width: 30rem;
+    height: fit-content;
+    background-color: var(--white);
+    padding: 3px;
+    gap: var(--sp-1);
+    position: relative;
+}
+
+.card-shadow{
+    box-shadow: 2px 2px 5px var(--black);
+}
+
+.badge-container {
+    width: 1.5rem;
+    height: 1.75rem;
+    position: absolute;
+    background-color: var(--white);
+    border-radius: var(--sp-1);
+    padding: 2.5px 5px;
+    display: flex;
+    align-items: center;
+    right: var(--sp-1);
+    top: var(--sp-1);
+}
+
+.badge-img {
+    width: 100%;
+}
+
+.img-container {
+    max-width: 15rem;
+}
+
+.right-section {
+    justify-content: space-evenly;
+}
+
+.badge-container:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.text-container {
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    gap: var(--sp-0-5);
+}
+
+.prod-title {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 1px;
+}
+
+.prod-costs {
+    gap: var(--sp-0-5);
+    margin-bottom: var(--sp-1);
+}
+
+.prod-cost {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin: 1px;
+}
+
+.prod-mrp,
+.prod-discount {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin: 1px;
+    text-decoration: line-through;
+    color: var(--solid-gray);
+}
+
+.btns,
+.btns-width-95 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sp-0-5);
+}
+
+.btns-full>button {
+    width: 100%;
+    border-radius: 0%;
+}
+
+
+.btns-width-95>button {
+    width: 95%;
+    border-radius: 0%;
+}
+
+.card-btns>button {
+    width: fit-content;
+}

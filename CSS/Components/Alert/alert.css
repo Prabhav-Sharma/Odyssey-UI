@@ -1,0 +1,73 @@
+@import url("/CSS/Components/Avatar/avatar.css");
+
+
+.wrapper {
+    gap: var(--sp-1-5);
+}
+
+.alert-wrapper {
+    gap: var(--sp-1);
+}
+
+
+.alert,
+.alert-icon {
+    color: var(--black);
+    border-radius: var(--sp-1);
+    padding: var(--sp-1) var(--sp-1-5);
+    width: fit-content;
+}
+
+.alert-icon {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: var(--sp-0-5) var(--sp-1);
+}
+
+.icon-alert {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.primary-alert {
+    background-color: var(--primary-color);
+}
+
+.success-alert {
+    background-color: var(--success-color);
+}
+
+.warning-alert {
+    background-color: var(--warning-color);
+}
+
+.error-alert {
+    background-color: var(--error-color);
+}
+
+.alert-text {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 0;
+}
+
+.highlight-text,
+.link-text {
+    font-weight: 600;
+}
+
+.link-text {
+    color: var(--black);
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.close-btn {
+    border: none;
+    background-color: transparent;
+    margin-left: 1rem;
+}

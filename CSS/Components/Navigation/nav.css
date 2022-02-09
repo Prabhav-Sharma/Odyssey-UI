@@ -1,0 +1,61 @@
+@import url("/CSS/Components/Lists/lists.css");
+
+nav{
+    display: block;
+    background-color: var(--white);
+    padding: var(--sp-1);
+    user-select: none;
+}
+
+.nav-row{
+    justify-content: space-between;
+}
+
+.nav-column{
+    padding:var(--sp-0-25) var(--sp-1);
+}
+
+.nav-img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.nav-logo{
+    align-items: center;
+}
+
+.nav-title{
+    color:var(--black);
+}
+
+.nav-links{
+    width: fit-content;
+    align-self: flex-end;
+}
+
+.links-top{
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.nav-button{
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    box-shadow: 1.5px 1.5px 5px var(--black);
+    padding: 0;
+    border-radius: var(--sp-0-25);
+    cursor: pointer;
+    transition: all linear 0.2s;
+    margin-right: var(--sp-1);
+}
+
+.nav-button:hover{
+    box-shadow: 1px 1px 2px var(--black);
+}
+
+.hamburger-img{
+    width: 70%;
+    height: 70%;
+}

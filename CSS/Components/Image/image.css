@@ -1,0 +1,11 @@
+@import url("/CSS/Components/Card/card.css");
+
+img {
+    height: fit-content;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.round-img {
+    border-radius: 50%;
+}
