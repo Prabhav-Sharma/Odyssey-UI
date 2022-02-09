@@ -1,0 +1,31 @@
+@import url("/CSS/Components/Navigation/nav.css");
+
+.modal {
+    border: 1px solid var(--black);
+    font-family: 'Open Sans', sans-serif;
+    gap: var(--sp-0-5);
+    max-width: 30%;
+    padding: var(--sp-0-5);
+    width: 25rem;
+}
+
+.modal-header {
+    justify-content: space-between;
+}
+
+.para-m {
+    border-bottom: 1px solid var(--solid-gray);
+    border-top: 1px solid var(--solid-gray);
+    padding: var(--sp-1) 0;
+}
+
+.btns {
+    align-self: flex-end;
+    gap: var(--sp-0-5);
+}
+
+.dismiss-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,90 @@
+@import url("/CSS/Components/Text/text-utils.css");
+
+.wrapper {
+    gap: var(--sp-1);
+    padding-left: var(--sp-1);
+}
+
+.list-group {
+    width: max-content;
+    margin: 0;
+    padding: var(--sp-0-5);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: var(--sp-0-5);
+    border-radius: var(--sp-0-5);
+    text-align: center;
+    color: var(--black);
+    transition: all linear 0.2s;
+}
+
+li:hover {
+    transform: translatex(3px);
+    background-color: var(--background-color);
+    cursor: pointer;
+    color: var(--black);
+}
+
+.list-group-item {
+    white-space: nowrap;
+    text-align: left;
+    width: fit-content;
+    padding: var(--sp-0-5);
+    color: var(--black);
+    transition: all linear 0.2s;
+}
+
+.group-center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-center>.list-group-item {
+    text-align: center;
+}
+
+.group-spaced {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sp-0-5)
+}
+
+.group-stack {
+    width: 20rem;
+    text-align: center;
+}
+
+.group-avatar {
+    gap: var(--sp-1);
+}
+
+.item-stack {
+    padding: var(--sp-1);
+    width: 100%;
+    border: 1px solid var(--black);
+    border-radius: 0;
+    height: fit-content;
+    border-radius: var(--sp-0-5);
+}
+
+.item-heading {
+    font-weight: 700;
+}
+
+.item-text {
+    gap: var(--sp-0-5);
+}
+
+.item-active {
+    background-color: var(--accent-color);
+    color: var(--white);
+}
