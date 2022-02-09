@@ -1,0 +1,24 @@
+@import url("/Documentation/styles/style-guide.css");
+@import url("/Documentation/styles/utils.css");
+@import url("/Documentation/Components/Text/text-utils.css");
+.two-item-grid{
+    grid-template-columns: 1fr 1fr;
+    gap:var(--space-small);
+}
+
+.three-item-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:var(--space-small);
+}
+
+.auto-grid{
+        grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+        gap:var(--space-small);
+}
+
+.grid-item{
+    height: auto;
+    padding: var(--space-large);
+    background-color: var(--primary-color);
+    color: var(--text-color-white);
+}
