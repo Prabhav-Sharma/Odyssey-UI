@@ -41,7 +41,8 @@ nav {
 article {
     gap: var(--sp-1);
     margin-left: 16.4rem;
-    height: calc(100vh - 102px);
+    margin-top:6rem;
+    height: 100%;
     display: flex;
 }
 
@@ -135,7 +136,6 @@ main {
     font-size: 1rem;
     width: fit-content;
     max-width: 100%;
-    overflow: auto;
     z-index: 0;
 }
 
@@ -176,6 +176,10 @@ footer {
     justify-content: space-evenly;
 }
 
+pre{
+    max-width: 65ch;
+}
+
 .code-showcase-wrapper {
     align-items: center;
     gap: var(--sp-1);
@@ -194,19 +198,16 @@ input {
     article {
         margin-left: 0;
     }
-
-    .code-showcase-wrapper {
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-
-    .code-example {
-        align-self: flex-start;
-    }
 }
 
 @media only screen and (max-width:510px) {
     html {
         font-size: 80%;
+    }
+}
+
+@media only screen and (max-width:440px) {
+    pre{
+        max-width: 40ch;
     }
 }
