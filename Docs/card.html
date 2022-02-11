@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card | Odyssey UI</title>
+    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/Assets/favicon.ico" type="image/x-icon">
+    <link href="docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css">
+</head>
+
+<body>
+    <nav class="nav-row flex-row">
+        <div class="nav-logo flex-row">
+            <button class="nav-button" id="nav-button"><img class="hamburger-img" src="/Assets/hamburger.png"></button>
+            <a class="nav-title-link flex-row" href="https://odysseyui.netlify.app">
+                <img alt="Logo Image" class="nav-img" src="/Assets/helmet.png">
+                <div class="nav-title">
+                    <h2>Odyssey UI</h2>
+                </div>
+            </a>
+        </div>
+        <ul class="nav-links links-top flex-row">
+            <li><a class="nav-link" href="/Docs/introduction.html">Docs</a></li>
+            <li><a class="nav-link" href="https://github.com/Prabhav-Sharma/odyssey-ui">GitHub</a></li>
+        </ul>
+    </nav>
+    <main class="main-container">
+        <section class="main-section grid" id="main-section">
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Getting Started</h4>
+                    <ul class="sidebar-section-list">
+                        <li class="sidebar-list-item"><a href="/Docs/introduction.html">Introduction</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/typography.html">Typography</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/colors.html">Colors</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Components</h4>
+                    <ul class="sidebar-section-list">
+                        <li class="sidebar-list-item"><a href="/Docs/avatar.html">Avatar</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/alert.html">Alert</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/badge.html">Badge</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/button.html">Button</a></li>
+                        <li class="sidebar-list-item item-active"><a href="/Docs/card.html">Card</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/image.html">Image</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/input.html">Input</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/lists.html">Lists</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/modal.html">Modal</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/rating.html">Rating</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/grid.html">Grid</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/navigation.html">Navigation</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/snackbar.html">Snackbar</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/slider.html">Slider</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <article class="flex-column" id="article">
+                <h2 class="component-title">Card</h2>
+                <div class="component-description flex-column">
+                    <p class="para-m">
+                        Cards are surfaces that display content and actions on a single topic.
+                    </p>
+                    <h3 class="component-title">Card with overlay-text</h3>
+                    <p class="para-m">
+                        To use Card with text-overlay, copy & paste the below code.
+                    </p>
+                    <div class="code-example flex-row">
+                        <pre><code class="language-html">&lt;div class="card-midtext">
+&lt;div class=img-container&gt;
+&lt;img class="prod-img" src="/CSS/Components/assets/1.jpg"&gt;&lt;/div&gt; 
+ &lt;p class="overlay-text"&gt;MEN&lt;/p&gt;
+ &lt;/div&gt;</code></pre>
+                    </div>
+                    <div class="code-showcase-wrapper flex-row">
+                        <div class="card-midtext">
+                            <div class=img-container><img class="prod-img" src="/CSS/Components/assets/1.jpg"></div> 
+                            <p class="overlay-text">MEN</p>
+                        </div>
+                    </div>
+                    <h3 class="component-title">Vertical Product Card</h3>
+                    <p class="para-m">
+                        To use vertical product card, copy & paste the below code.
+                    </p>
+                    <div class="code-example flex-row">
+                        <pre><code class="language-html"> &lt;div class="card flex-column">
+ &lt;div class=img-container>
+ &lt;img class="prod-img" src="/CSS/Components/assets/2.jpg"&gt;
+ &lt;/div&gt; 
+ &lt;div class="text-container flex-column"&gt;
+ &lt;p class="prod-title"&gt;Men's Bomber Jacket&lt;/p&gt;
+ &lt;p class="prod-cost"&gt;₹1999&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="card-btns"&gt;
+ &lt;button class="btn prim-acc-btn"&gt;Add to cart&lt;/button&gt;
+ &lt;button class="btn prim-btn"&gt;Buy Now&lt;/button&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;</code></pre>
+                    </div>
+                    <div class="code-showcase-wrapper flex-row">
+                        <div class="card flex-column">
+                            <div class=img-container><img class="prod-img" src="/CSS/Components/assets/2.jpg"></div> 
+                            <div class="text-container flex-column">
+                                <p class="prod-title">Men's Bomber Jacket</p>
+                                <p class="prod-cost">₹1999</p>
+                            </div>
+                            <div class="card-btns">
+                                <button class="btn prim-acc-btn">Add to cart</button>
+                                <button class="btn prim-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="component-title">Horizontal Product Card</h3>
+                    <p class="para-m">
+                        To use Horizontal product card, copy & paste the below code.
+                    </p>
+                    <div class="code-example flex-row">
+                        <pre><code class="language-html">&lt;div class="card card-horizontal flex-row"&gt;
+&lt;div class="img-container"&gt;
+&lt;img class="prod-img" src="/CSS/Components/assets/3.jpg"&gt
+;&lt;/div&gt; 
+&lt;div class="right-section flex-column"&gt;
+&lt;div class="text-container flex-column"&gt;
+&lt;p class="prod-title"&gt;Men's Premium Jacket&lt;/p&gt;
+&lt;div class="prod-costs flex-row"&gt;
+&lt;p class="prod-cost"&gt;₹1999&lt;/p&gt;
+&lt;p class="prod-mrp"&gt;₹3999&lt;/p&gt;
+&lt;/div&gt;
+&lt;p class="prod-discount"&gt;50%&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="btns-width-95 flex-column"&gt;
+&lt;button class="btn prim-btn">Buy Now&lt;/button&gt;
+&lt;button class="btn prim-acc-btn">Add to cart&lt;/button&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</code></pre>
+                    </div>
+                    <div class="code-showcase-wrapper flex-row">
+                        <div class="card card-horizontal flex-row">
+                            <div class="img-container"><img class="prod-img" src="/CSS/Components/assets/3.jpg"></div> 
+                            <div class="right-section flex-column">
+                            <div class="text-container flex-column">
+                                <p class="prod-title">Men's Premium Jacket</p>
+                                <div class="prod-costs flex-row">
+                                <p class="prod-cost">₹1999</p>
+                                <p class="prod-mrp">₹3999</p>
+                                </div>
+                                <p class="prod-discount">50%</p>
+                            </div>
+                            <div class="btns-width-95 flex-column">
+                                <button class="btn prim-btn">Buy Now</button>
+                                <button class="btn prim-acc-btn">Add to cart</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <h3 class="component-title">Card with Badge</h3>
+                    <p class="para-m">
+                       To use card with badge, you can copy & paste the below code. 
+                    </p>
+                    <div class="code-example flex-row">
+                        <pre><code class="language-html">&lt;div class="card flex-column"&gt;
+&lt;div class=img-container&gt;
+&lt;img class="prod-img" src="/CSS/Components/assets/2.jpg"&gt;
+&lt;/div&gt; 
+&lt;div class=badge-container&gt;
+&lt;img class="badge-img" src="/CSS/Components/assets/like.png"&gt;
+&lt;/div&gt;
+&lt;div class="text-container flex-column"&gt;
+&lt;p class="prod-title"&gt;Men's Bomber Jacket&lt;/p&gt;
+&lt;p class="prod-cost"&gt;₹1999&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="btns-full flex-column"&gt;
+&lt;button class="btn gray-btn"&gt;Move to cart&lt;/button&gt;
+&lt;/div&gt;&lt;/div&gt;</code></pre>
+                    </div>
+                    <div class="code-showcase-wrapper flex-row">
+                        <div class="card flex-column">
+                            <div class=img-container><img class="prod-img" src="/CSS/Components/assets/2.jpg"></div> 
+                            <div class=badge-container><img class="badge-img" src="/CSS/Components/assets/like.png"></div>
+                            <div class="text-container flex-column">
+                                <p class="prod-title">Men's Bomber Jacket</p>
+                                <p class="prod-cost">₹1999</p>
+                            </div>
+                            <div class="btns-full flex-column">
+                                <button class="btn gray-btn">Move to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="component-title">Card with Shadows</h3>
+                    <p class="para-m">
+                       To add box-shadow to any card, you can add the class 
+                         <span class="highlight-text">"card-shadow"</span>.
+                    </p>
+                    <div class="code-example flex-row">
+                        <pre><code class="language-html">&lt;div class="card flex-column card-shadow"&gt;....&lt;/div&gt;</code></pre>
+                    </div>
+                    <div class="code-showcase-wrapper flex-row">
+                        <div class="card flex-column card-shadow">
+                            <div class=img-container><img class="prod-img" src="/CSS/Components/assets/2.jpg"></div> 
+                            <div class=badge-container><img class="badge-img" src="/CSS/Components/assets/like.png"></div>
+                            <div class="text-container flex-column">
+                                <p class="prod-title">Men's Bomber Jacket</p>
+                                <p class="prod-cost">₹1999</p>
+                            </div>
+                            <div class="btns-full flex-column">
+                                <button class="btn gray-btn">Move to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-footer-links flex-row">
+                        <a href="/Docs/button.html">❮ Button</a>
+                        <a href="/Docs/image.html">Image ❯</a>
+                    </div>
+                </div>
+                <footer>
+                    <div class="footer-items flex-column">
+                        <h5>Created with 💜 by Prabhav Sharma</h5>
+                        <div class="footer-links flex-row">
+                            <a href="https://github.com/Prabhav-Sharma"><img class="icon" src="/Assets/github-1.png"></a>
+                            <a href="https://www.linkedin.com/in/prabhav-sharma-a2180b1b0/"><img class="icon"
+                                    src="/Assets/linkedin.png"></a>
+                            <a href="https://twitter.com/Prabhavsharmaa"><img class="icon" src="/Assets/twitter.png"></a>
+                        </div>
+                        <p class="para-m text-gray text-center">©Odyssey-UI </p>
+                    </div>
+                </footer>
+            </article>
+        </section>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="/Docs/docs.js"></script>
+</body>
+
+</html>

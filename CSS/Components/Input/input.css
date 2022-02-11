@@ -58,4 +58,5 @@ input {
     line-height: 1.5rem;
     padding: var(--sp-0-5);
     max-width:100%;
+    width: 20rem;
 }

@@ -3,13 +3,14 @@
 :root{
  /*----------Colors----------*/
     --primary-color:#01A7C2;
-    --secondary-color:#E6BE1E;
+    --secondary-color:#F0C20C;
     --accent-color:#BF0267;
     --accent-color-light:rgb(184, 6, 101);
     --background-color: #CCDAD1;
     --black:#1A181B;
     --white:#FEFEFF;
     --gray:#F1F2EB;
+    --cadet:#4F646F;
     --solid-gray:#979797;
     --success-color: #82D993;
     --warning-color: #E7F249;

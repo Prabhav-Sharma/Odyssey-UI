@@ -4,9 +4,9 @@
     border: 1px solid var(--black);
     font-family: 'Open Sans', sans-serif;
     gap: var(--sp-0-5);
-    max-width: 30%;
+    max-width:50% ;
     padding: var(--sp-0-5);
-    width: 25rem;
+    min-width: 30%;
 }
 
 .modal-header {
