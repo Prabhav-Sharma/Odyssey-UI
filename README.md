@@ -1,4 +1,4 @@
-# odyssey-ui
+# Odyssey UI
 A front-end library for building beautiful and memorable user experiences
 
 The library is built with the idea to build the idea of enhancing user experiences, and several user journeys, hence the name odyssey.
