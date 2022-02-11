@@ -5,27 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odyssey-UI</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Odyssey UI</title>
+    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/Assets/favicon.ico" type="image/x-icon">
+    <link href="index.css" rel="stylesheet">
 </head>
 
-<body class="main-wrapper">
-    <div class="content-wrapper">
-        <div class="title">
-            <img class="helmet" src="images/helmet.png">
-            <h1>Odyssey-UI</h1>
+<body>
+    <nav class="nav-row flex-row">
+        <div class="nav-logo flex-row">
+            <a class="nav-title-link flex-row" href="/index.html">
+                <img alt="Logo Image" class="nav-img" src="/Assets/helmet.png">
+                <div class="nav-title">
+                    <h2>Odyssey UI</h2>
+                </div>
+            </a>
         </div>
-        <p class="description-large">A front-end library for designing beautiful and responsive user interfaces.</p>
-        <div class="button-wrapper">
-            <button class="secondary-button">Source Code</button>
-            <button class="primary-button">Get Started</button>
+        <ul class="nav-links links-top flex-row">
+            <li><a class="nav-link" href="/Docs/introduction.html">Docs</a></li>
+            <li><a class="nav-link" href="https://github.com/Prabhav-Sharma/odyssey-ui">GitHub</a></li>
+        </ul>
+    </nav>
+   <main class="flex-row">
+       <div class="hero-wrapper flex-column">
+       <p class="para-l">A front-end library for building beautiful and memorable user experiences</p>
+       <div class="hero-btns flex-row">
+           <a href="https://github.com/Prabhav-Sharma/odyssey-ui"><button class="btn prim-acc-btn btn-round">Source Code</button></a>
+           <a href="/Docs/introduction.html"><button class="btn prim-btn btn-round">Get Started</button></a>
+       </div>
+    </div>
+    <img alt="Journey Image" class="hero-img" src="/Assets/journey.svg">
+   </main>
+    <footer>
+        <div class="footer-items flex-column">
+            <h5>Created with 💜 by Prabhav Sharma</h5>
+            <div class="footer-links flex-row">
+                <a href="https://github.com/Prabhav-Sharma"><img class="icon" src="/Assets/github-1.png"></a>
+                <a href="https://www.linkedin.com/in/prabhav-sharma-a2180b1b0/"><img class="icon"
+                        src="/Assets/linkedin.png"></a>
+                <a href="https://twitter.com/Prabhavsharmaa"><img class="icon" src="/Assets/twitter.png"></a>
+            </div>
+            <p class="para-m text-gray text-center">©Odyssey-UI </p>
         </div>
-    </div>
-    <div class="footer">
-        <footer class="wave-container">
-            <img class="wave" src="images/wave.svg">
-        </footer>
-    </div>
+    </footer>
+    </article>
+    </section>
+    </main>
 </body>
 
 </html>
