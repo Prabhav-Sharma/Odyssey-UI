@@ -37,8 +37,10 @@ nav {
 }
 
 article {
-    gap: var(--sp-2);
+    gap: var(--sp-1);
     margin-left: 16.4rem;
+    height: calc(100vh - 102px);
+    display: flex;
 }
 
 .sidebar {
@@ -108,7 +110,6 @@ article {
 
 main {
     padding: var(--sp-0-25);
-    padding-bottom: 0;
 }
 
 .component-title {
@@ -151,6 +152,7 @@ footer {
     background-color: var(--cadet);
     color: var(--white);
     display: flex;
+    margin-top: auto;
     font-family: 'Open Sans', sans-serif;
     justify-content: center;
     padding: var(--sp-0-5) 0;
