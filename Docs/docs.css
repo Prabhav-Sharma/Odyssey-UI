@@ -6,10 +6,12 @@ body {
 
 nav {
     border-bottom: 1px solid var(--solid-gray);
-    position: sticky;
+    position: fixed;
+    width: 98%;
     top: 0;
     white-space: nowrap;
     z-index: 10;
+    height: 4rem;
 }
 
 .main-wrapper {
@@ -47,9 +49,8 @@ article {
     border-right: 1px solid var(--background-color);
     background-color: var(--white);
     border-bottom: 1px solid var(--solid-gray);
-    height: calc(100vh - 6rem);
-    margin-top: -5px;
-    margin-bottom: 5rem;
+    height: calc(100vh - 5rem);
+    margin-top: 5.5rem;
     overflow-y: auto;
     position: fixed;
     width: 16rem;
@@ -120,6 +121,8 @@ main {
     font-family: 'Open Sans', sans-serif;
     gap: var(--sp-1-5);
     word-spacing: 1px;
+    max-width:100%;
+    white-space: wrap;
 }
 
 .highlight-text {
@@ -131,6 +134,9 @@ main {
     align-self: center;
     font-size: 1rem;
     width: fit-content;
+    max-width: 100%;
+    overflow: auto;
+    z-index: 0;
 }
 
 .article-footer-links {
@@ -195,7 +201,7 @@ input {
     }
 
     .code-example {
-        justify-content: flex-start;
+        align-self: flex-start;
     }
 }
 
