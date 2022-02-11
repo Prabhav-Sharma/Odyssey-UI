@@ -85,6 +85,6 @@ li:hover {
 }
 
 .item-active {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     color: var(--white);
 }

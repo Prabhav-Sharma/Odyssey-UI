@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation | Odyssey UI</title>
+    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/Assets/favicon.ico" type="image/x-icon">
+    <link href="docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css">
+</head>
+
+<body>
+    <nav class="nav nav-row flex-row">
+        <div class="nav-logo flex-row">
+            <button class="nav-button" id="nav-button"><img class="hamburger-img" src="/Assets/hamburger.png"></button>
+            <a class="nav-title-link flex-row" href="https://odysseyui.netlify.app">
+                <img alt="Logo Image" class="nav-img" src="/Assets/helmet.png">
+                <div class="nav-title">
+                    <h2>Odyssey UI</h2>
+                </div>
+            </a>
+        </div>
+        <ul class="nav-links links-top flex-row">
+            <li><a class="nav-link" href="/Docs/introduction.html">Docs</a></li>
+            <li><a class="nav-link" href="https://github.com/Prabhav-Sharma/odyssey-ui">GitHub</a></li>
+        </ul>
+    </nav>
+    <main class="main-container">
+        <section class="main-section grid" id="main-section">
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Getting Started</h4>
+                    <ul class="sidebar-section-list">
+                        <li class="sidebar-list-item"><a href="/Docs/introduction.html">Introduction</a>
+                        </li>
+                        <li class="sidebar-list-item"><a href="/Docs/typography.html">Typography</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/colors.html">Colors</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Components</h4>
+                    <ul class="sidebar-section-list">
+                        <li class="sidebar-list-item"><a href="/Docs/avatar.html">Avatar</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/alert.html">Alert</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/badge.html">Badge</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/button.html">Button</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/card.html">Card</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/image.html">Image</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/input.html">Input</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/lists.html">Lists</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/modal.html">Modal</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/rating.html">Rating</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/grid.html">Grid</a></li>
+                        <li class="sidebar-list-item item-active"><a href="/Docs/navigation.html">Navigation</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/snackbar.html">Snackbar</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/slider.html">Slider</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <article class="flex-column" id="article">
+                <h2 class="component-title">Navigation</h2>
+                <div class="component-description flex-column">
+                    <p class="para-m">
+                        <span class="highlight-text">Navigation</span> represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. 
+                    </p>
+                    <h3 class="component-title">Navigation: Column</h3>
+                    <p class="para-m">
+                       To use navigation: column you need to use the below code.
+                    </p>
+                    <div class="code-example flex-row">
+                        <pre><code class="language-html">&lt;nav class="nav-column flex-column"&gt;
+&lt;div class="nav-logo flex-row"&gt;
+&lt;img alt="Logo Image" class="nav-img"
+ src="/Assets/helmet.png"&gt;
+&lt;div class="nav-title"&gt;&lt;h1&gt;Logo&lt;/h1&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul class="nav-links links-top flex-row">
+&lt;li&gt;&lt;a class="nav-link" href="#">Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="nav-link" href="#">Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="nav-link" href="#">GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+                    </div>
+                    <div class="code-showcase-wrapper">
+                        <nav class="nav-column flex-column" style="background-color: var(--gray); z-index: -5;">
+                            <div class="nav-logo flex-row">
+                                <img alt="Logo Image" class="nav-img" src="/Assets/helmet.png">
+                                <div class="nav-title"><h1>Logo</h1></div>
+                            </div>
+                            <ul class="nav-links links-top flex-row">
+                                <li><a class="nav-link" href="#">Home</a></li>
+                                <li><a class="nav-link" href="#">Docs</a></li>
+                                <li><a class="nav-link" href="#">GitHub</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <br>
+                    <h3 class="component-title">Navigation: Row with Hamburger </h3>
+                    <p class="para-m">
+                        To use Navigation: Row, you need to use the below code.
+                    </p>
+                    <div class="code-example flex-row">
+                        <pre><code class="language-html">&lt;nav class="nav-row flex-row"&gt;
+&lt;div class="nav-logo flex-row"&gt;
+&lt;button class="nav-button"&gt;
+&lt;img class="hamburger-img" src="/Assets/hamburger.png"&gt;
+&lt;/button&gt;
+&lt;img alt="Logo Image" class="nav-img"
+ src="/Assets/helmet.png"&gt;
+&lt;div class="nav-title"&gt;&lt;h1&gt;Logo&lt;/h1&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul class="nav-links links-top flex-row">
+&lt;li&gt;&lt;a class="nav-link" href="#">Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="nav-link" href="#">Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="nav-link" href="#">GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+                    </div>
+                    <div class="code-showcase-wrapper">
+                        <nav class="nav-row flex-row" style="background-color: var(--gray); z-index: -5;">
+                            <div class="nav-logo flex-row">
+                                <button class="nav-button" ><img class="hamburger-img" src="/Assets/hamburger.png"></button>
+                                <img alt="Logo Image" class="nav-img" src="/Assets/helmet.png">
+                                <div class="nav-title"><h1>Logo</h1></div>
+                            </div>
+                            <ul class="nav-links links-top flex-row">
+                                <li><a class="nav-link" href="#">Home</a></li>
+                                <li><a class="nav-link" href="#">Docs</a></li>
+                                <li><a class="nav-link" href="#">GitHub</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <p class="para-m">
+                        Note: In case you hadn't noticed, we're using the same navigation for our library with slight changes.
+                    </p>
+                    <div class="article-footer-links flex-row">
+                        <a href="/Docs/grid.html">❮ Grid</a>
+                        <a href="/Docs/snackbar.html">Snackbar ❯</a>
+                    </div>
+                </div>
+                <footer>
+                    <div class="footer-items flex-column">
+                        <h5>Created with 💜 by Prabhav Sharma</h5>
+                        <div class="footer-links flex-row">
+                            <a href="https://github.com/Prabhav-Sharma"><img class="icon" src="/Assets/github-1.png"></a>
+                            <a href="https://www.linkedin.com/in/prabhav-sharma-a2180b1b0/"><img class="icon"
+                                    src="/Assets/linkedin.png"></a>
+                            <a href="https://twitter.com/Prabhavsharmaa"><img class="icon" src="/Assets/twitter.png"></a>
+                        </div>
+                        <p class="para-m text-gray text-center">©Odyssey-UI </p>
+                    </div>
+                </footer>
+            </article>
+        </section>
+    </main>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="/Docs/docs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating | Odyssey UI</title>
+    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/Assets/favicon.ico" type="image/x-icon">
+    <link href="docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css">
+</head>
+
+<body>
+    <nav class="nav-row flex-row">
+        <div class="nav-logo flex-row">
+            <button class="nav-button" id="nav-button"><img class="hamburger-img" src="/Assets/hamburger.png"></button>
+            <a class="nav-title-link flex-row" href="https://odysseyui.netlify.app">
+                <img alt="Logo Image" class="nav-img" src="/Assets/helmet.png">
+                <div class="nav-title">
+                    <h2>Odyssey UI</h2>
+                </div>
+            </a>
+        </div>
+        <ul class="nav-links links-top flex-row">
+            <li><a class="nav-link" href="/Docs/introduction.html">Docs</a></li>
+            <li><a class="nav-link" href="https://github.com/Prabhav-Sharma/odyssey-ui">GitHub</a></li>
+        </ul>
+    </nav>
+    <main class="main-container">
+        <section class="main-section grid" id="main-section">
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Getting Started</h4>
+                    <ul class="sidebar-section-list">
+                        <li class="sidebar-list-item"><a href="/Docs/introduction.html">Introduction</a>
+                        </li>
+                        <li class="sidebar-list-item"><a href="/Docs/typography.html">Typography</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/colors.html">Colors</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Components</h4>
+                    <ul class="sidebar-section-list">
+                        <li class="sidebar-list-item"><a href="/Docs/avatar.html">Avatar</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/alert.html">Alert</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/badge.html">Badge</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/button.html">Button</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/card.html">Card</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/image.html">Image</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/input.html">Input</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/lists.html">Lists</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/modal.html">Modal</a></li>
+                        <li class="sidebar-list-item item-active"><a href="/Docs/rating.html">Rating</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/grid.html">Grid</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/navigation.html">Navigation</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/snackbar.html">Snackbar</a></li>
+                        <li class="sidebar-list-item"><a href="/Docs/slider.html">Slider</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <article class="flex-column" id="article">
+                <h2 class="component-title">Rating</h2>
+                <div class="component-description flex-column">
+                    <p class="para-m">
+                        A <span class="highlight-text">modal</span> is a message box that is displayed on top of your screen. Modals put an overlay on the screen therefore, they take visual precedence over all the other elements.
+                        <br>
+                       To use the modal, you need to copy & paste the below code
+                    </p>
+                    <div class="code-example flex-row">
+                        <pre><code class="language-html">&lt;div class="rating flex-row"&gt;
+&lt;span class="rating-star">★&lt;/span&gt;...
+&lt;/div&gt;</code></pre>
+                    </div>
+                    <div class="code-showcase-wrapper flex-row">
+                        <div class="rating flex-row">
+                            <span class="rating-star">★</span>
+                            <span class="rating-star">★</span>
+                            <span class="rating-star">★</span>
+                            <span class="rating-star">★</span>
+                            <span class="rating-star">★</span>
+                        </div>
+                    </div>
+                    <p class="para-m">
+                       Note:You can use the class <span class="highlight-text">"filled"</span> to fill a single star & <span class="highlight-text">"filled-siblings"</span> to fill all preceding stars</p>
+                    
+                    <div class="article-footer-links flex-row">
+                        <a href="/Docs/modal.html">❮ Modal</a>
+                        <a href="/Docs/grid.html">Grid ❯</a>
+                    </div>
+                </div>
+                <footer>
+                    <div class="footer-items flex-column">
+                        <h5>Created with 💜 by Prabhav Sharma</h5>
+                        <div class="footer-links flex-row">
+                            <a href="https://github.com/Prabhav-Sharma"><img class="icon" src="/Assets/github-1.png"></a>
+                            <a href="https://www.linkedin.com/in/prabhav-sharma-a2180b1b0/"><img class="icon"
+                                    src="/Assets/linkedin.png"></a>
+                            <a href="https://twitter.com/Prabhavsharmaa"><img class="icon" src="/Assets/twitter.png"></a>
+                        </div>
+                        <p class="para-m text-gray text-center">©Odyssey-UI </p>
+                    </div>
+                </footer>
+            </article>
+        </section>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="/Docs/docs.js"></script>
+</body>
+
+</html>
