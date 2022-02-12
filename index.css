@@ -11,7 +11,7 @@ main{
     height: calc(100vh-228px);
     justify-content: space-around;
     align-content: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
     padding: var(--sp-1);
 }
 
@@ -24,6 +24,7 @@ main{
 .para-l{
     white-space: pre-wrap;
     text-align: center;
+    max-width:45ch ;
 }
 
 .hero-img{
