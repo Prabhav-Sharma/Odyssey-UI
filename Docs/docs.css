@@ -8,6 +8,7 @@ nav {
     border-bottom: 1px solid var(--solid-gray);
     position: fixed;
     width: 98%;
+    max-width: 100%;
     top: 0;
     white-space: nowrap;
     z-index: 10;
@@ -44,6 +45,7 @@ article {
     margin-top:6rem;
     height: 100%;
     display: flex;
+    max-width:100%;
 }
 
 .sidebar {
@@ -162,6 +164,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     justify-content: center;
     padding: var(--sp-0-5) 0;
+    max-width: 100%;
 }
 
 .footer-items {
@@ -204,9 +207,15 @@ input {
     html {
         font-size: 80%;
     }
+
 }
 
 @media only screen and (max-width:440px) {
+  
+    html{
+        font-size: 70%;
+    }
+
     pre{
         max-width: 40ch;
     }
