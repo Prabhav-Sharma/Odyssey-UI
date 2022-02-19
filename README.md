@@ -84,6 +84,7 @@ The list of components which together constitute the library are:
 
 ### 16.Slider
 
-![image](https://user-images.githubusercontent.com/88072012/153632283-5017b209-3d71-4539-ba2d-3752eaa8e832.png)
+![Animation](https://user-images.githubusercontent.com/88072012/154794513-f8c9e3d6-7a8c-459b-b560-cc5753f10b55.gif)
+
 
 
