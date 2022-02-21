@@ -31,6 +31,10 @@ nav{
 .nav-links{
     width: fit-content;
     align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    gap:var(--sp-0-25);
+    margin-bottom: var(--sp-0-5);
 }
 
 .links-top{
@@ -53,6 +57,11 @@ nav{
 
 .nav-button:hover{
     box-shadow: 1px 1px 2px var(--black);
+}
+
+.nav-icon{
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .hamburger-img{
