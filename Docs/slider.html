@@ -65,8 +65,43 @@
                 <h2 class="component-title">Slider</h2>
                 <div class="component-description flex-column">
                     <p class="para-m">
-                        I'm afraid, this is a still a bit "work in progress" check again soon!
+                        Sliders allow users to make selections from a range of values.
+                        <br>
+                        <br>
+                        To use the slider, you need to add the class <span class="highlight-text">slider-container</span> to the containing div &
+                        class <span class="highlight-text">slider</span> with ID <span class="highlight-text">myRange</span>. 
+                        <br>
+                        <br>
+                        To show the value of the slider, the component library uses JS, and the output is shown in the element with the ID
+                         <span class="highlight-text">myRange-output</span>
                     </p>
+                    <div class="code-example flex-row">
+                        <pre><code class="language-html">&lt;div class="slider-container"&gt;
+&lt;input type="range" min="1" max="100" value="50" 
+class="slider" id="myRange"&gt;
+&lt;p class="para-m" id="myRange-output"&gt;&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+
+                    <p class="para-m">
+                        The JS code for the slider
+                        </p>
+                        <div class="code-example flex-row">
+                        <pre><code>const slider = document.getElementById("myRange");
+const output = document.getElementById("myRange-output");
+output.innerHTML =`Value: ${slider.value}`;
+
+slider.addEventListener("input", ()=>{
+   output.innerHTML = `Value: ${slider.value}`;
+   console.log(slider.value)
+});</code></pre></div>
+                    
+                    <div class="code-showcase-wrapper flex-row">
+                        <div class="slider-container">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            <p class="para-m" id="myRange-output"></p>
+                        </div>
+                    </div>
                     
                     <div class="article-footer-links flex-row">
                         <a href="/Docs/snackbar.html">❮ Snackbar</a>
@@ -89,6 +124,7 @@
         </section>
     </main>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="slider.js"></script>
     <script src="/Docs/docs.js"></script>
 </body>
 
