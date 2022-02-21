@@ -3,7 +3,7 @@
 
 .snackbar {
     position: absolute;
-    background-color: var(--black);
+    background-color: var(--cadet);
     color: var(--gray);
     gap: var(--sp-0-5);
     padding: var(--sp-1);
