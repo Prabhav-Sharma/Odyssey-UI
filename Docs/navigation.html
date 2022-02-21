@@ -135,7 +135,23 @@
                         </nav>
                     </div>
                     <p class="para-m">
-                        Note: In case you hadn't noticed, we're using the same navigation for our library with slight changes.
+                        JS Code for Hamburger functioning.
+                    </p>
+                    <div class="code-example flex-row">
+                        <pre><code>const toggle = () => {
+if (sidebar.className == "sidebar") {
+     sidebar.className = "sidebar-toggle";
+     article.className = "flex-column article-toggle";
+     clearInterval(intervalID);
+} else {
+     sidebar.className = "sidebar";
+     article.className = "flex-column";
+}
+};
+navBtn.addEventListener("click", toggle);</code></pre>
+                    </div>
+                    <p class="para-m">
+                      Note: In case you hadn't noticed, we've used the same navigation in the component library.
                     </p>
                     <div class="article-footer-links flex-row">
                         <a href="/Docs/grid.html">❮ Grid</a>
